@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Child Fine Motor Assessment System</string>
+    <string-array name="Sex">
+        <item>Not Specified</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="Grade">
+        <item>Not Specified</item>
+        <item>Playgroup</item>
+        <item>Nursery</item>
+        <item>Kindergarten 1</item>
+        <item>Kindergarten 2</item>
+        <item>Grade 1</item>
+        <item>Grade 2</item>
+        <item>Grade 3</item>
+        <item>Grade 4</item>
+        <item>Grade 5</item>
+        <item>Grade 6</item>
+        <item>Grade 7</item>
+        <item>Grade 8</item>
+        <item>Grade 9</item>
+        <item>Grade 10</item>
+        <item>Grade 11</item>
+        <item>Grade 12</item>
+    </string-array>
+    <string-array name="Handedness">
+        <item>Not Specified</item>
+        <item>Right Hand</item>
+        <item>Left Hand</item>
+    </string-array>
+    <string-array name="Footedness">
+        <item>Not Specified</item>
+        <item>Right Foot</item>
+        <item>Left Foot</item>
+    </string-array>
+    <string-array name="Gross_Motor">
+        <item>Sit-ups</item>
+        <item>Push-ups</item>
+        <item>Lift Same-side Arm and Leg</item>
+        <item>Lift Opposite-side Arm and Leg</item>
+        <item>Jump with Same-side Arm and Leg</item>
+        <item>Jump with Opposite-side Arm and Leg</item>
+        <item>Touch Head, Ear, Shoulder, Knee with Both Hands</item>
+        <item>Stand on Tip Toes with One Foot</item>
+        <item>Right Foot, Both Feet, Left Foot, Both Feet Jump in Place</item>
+        <item>Clap Both Feet</item>
+        <item>Sequentially Compare Fingers 0 to 5</item>
+        <item>Rotate Pen with Three Fingers in One Hand</item>
+    </string-array>
+    <string-array name="Language">
+        <item>Chinese</item>
+        <item>English</item>
+        <item>Japanese</item>
+    </string-array>
+</resources>

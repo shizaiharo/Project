@@ -1,0 +1,67 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+}
+
+android {
+    namespace 'tw.cgu.b0929056.testapplication'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "tw.cgu.b0929056.testapplication"
+        minSdk 26
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    buildFeatures {
+        mlModelBinding true
+        viewBinding true
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.10.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation "androidx.drawerlayout:drawerlayout:1.2.0"
+    implementation 'com.google.firebase:firebase-auth:22.1.2'
+    implementation(platform("com.google.firebase:firebase-bom:32.2.0"))
+    implementation("com.google.firebase:firebase-analytics-ktx")
+    implementation project(path: ':OpenCV')
+    implementation 'androidx.datastore:datastore-preferences-rxjava3:1.0.0'
+    implementation 'com.google.firebase:firebase-database-ktx:20.2.2'
+    implementation 'com.google.firebase:firebase-storage-ktx:20.2.1'
+    implementation 'org.tensorflow:tensorflow-lite-support:0.3.0'
+    implementation 'org.tensorflow:tensorflow-lite-metadata:0.3.0'
+    implementation 'org.tensorflow:tensorflow-lite-gpu:2.9.0'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+    //implementation 'androidx.preference:preference:1.2.1'
+    implementation "androidx.datastore:datastore-preferences:1.0.0"
+    // 可選 - 支持RxJava2
+    implementation "androidx.datastore:datastore-rxjava2:1.0.0"
+    // 可選 - 支持RxJava3
+    implementation "androidx.datastore:datastore-rxjava3:1.0.0"
+
+    implementation 'commons-io:commons-io:2.4'
+
+    // Optical Character Recognition
+    implementation "com.google.mlkit:digital-ink-recognition:18.1.0"
+}

@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">子供の細かい運動評価システム</string>
+    <string-array name="Sex">
+        <item>未指定</item>
+        <item>男性</item>
+        <item>女性</item>
+    </string-array>
+    <string-array name="Grade">
+        <item>未指定</item>
+        <item>遊びのグループ</item>
+        <item>保育園</item>
+        <item>幼稚園1</item>
+        <item>幼稚園2</item>
+        <item>1年生</item>
+        <item>2年生</item>
+        <item>3年生</item>
+        <item>4年生</item>
+        <item>5年生</item>
+        <item>6年生</item>
+        <item>7年生</item>
+        <item>8年生</item>
+        <item>9年生</item>
+        <item>10年生</item>
+        <item>11年生</item>
+        <item>12年生</item>
+    </string-array>
+    <string-array name="Handedness">
+        <item>未指定</item>
+        <item>右手</item>
+        <item>左手</item>
+    </string-array>
+    <string-array name="Footedness">
+        <item>未指定</item>
+        <item>右足</item>
+        <item>左足</item>
+    </string-array>
+    <string-array name="Gross_Motor">
+        <item>腹筋</item>
+        <item>腕立て伏せ</item>
+        <item>同じ側の腕と足を持ち上げる</item>
+        <item>反対側の腕と足を持ち上げる</item>
+        <item>同じ側の腕と足でジャンプする</item>
+        <item>反対側の腕と足でジャンプする</item>
+        <item>両手で頭、耳、肩、膝に触れる</item>
+        <item>片足でつま先立ち</item>
+        <item>右足、両足、左足、両足で原地ジャンプ</item>
+        <item>両足で手をたたく</item>
+        <item>順番に指を0から5まで比較する</item>
+        <item>片手でペンを三本の指で回す</item>
+    </string-array>
+    <string-array name="Language">
+        <item>中国語</item>
+        <item>英語</item>
+        <item>日本語</item>
+    </string-array>
+</resources>

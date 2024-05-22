@@ -1,0 +1,274 @@
+<resources>
+    <string name="app_name">兒童精細動作評估系統</string>
+    <string-array name="Sex">
+        <item>未設定</item>
+        <item>男性</item>
+        <item>女性</item>
+    </string-array>
+    <string-array name="Grade">
+        <item>未設定</item>
+        <item>幼幼班</item>
+        <item>小班</item>
+        <item>中班</item>
+        <item>大班</item>
+        <item>一年級</item>
+        <item>二年級</item>
+        <item>三年級</item>
+        <item>四年級</item>
+        <item>五年級</item>
+        <item>六年級</item>
+        <item>七年級</item>
+        <item>八年級</item>
+        <item>九年級</item>
+        <item>十年級</item>
+        <item>十一年級</item>
+        <item>十二年級</item>
+    </string-array>
+    <string-array name="Handedness">
+        <item>未設定</item>
+        <item>右手</item>
+        <item>左手</item>
+    </string-array>
+    <string-array name="Footedness">
+        <item>未設定</item>
+        <item>右腳</item>
+        <item>左腳</item>
+    </string-array>
+    <string-array name="Gross_Motor">
+        <item>仰臥起坐</item>
+        <item>伏地挺身</item>
+        <item>同側手腳舉起</item>
+        <item>不同側手腳舉起</item>
+        <item>同側手腳跳躍</item>
+        <item>不同側手腳跳躍</item>
+        <item>雙手同時碰_頭_耳_肩_膝</item>
+        <item>踮腳尖單腳站</item>
+        <item>右腳_雙腳_左腳_雙腳原地跳</item>
+        <item>雙腳打拍子</item>
+        <item>手指依序比0~5</item>
+        <item>單手前三指轉筆</item>
+    </string-array>
+    <string-array name="Language">
+        <item>中文</item>
+        <item>英文</item>
+        <item>日文</item>
+    </string-array>
+    <string-array name="Fine_Motor_Survey_Questions">
+        <item>孩子可用十指在雙手協調下，可用電腦打出繁體中文</item>
+        <item>孩子可以自行用刀子切厚牛排</item>
+        <item>會用毛線織作品</item>
+        <item>這孩子可即時抄寫課文至作業簿，不會漏字且不會有錯別字</item>
+        <item>我會用鉛筆素描風景，包含光的明暗深淺、陰影處等細微地方</item>
+        <item>會用細線穿過針</item>
+        <item>用包裝紙包禮物</item>
+        <item>能用細軟線串小珠子</item>
+        <item>會打蝴蝶結</item>
+        <item>會使用美工刀沿線將簡單圖形割下。例如：○、☆</item>
+        <item>能用美工刀，切割複雜圖形，例如花雕</item>
+        <item>會使用剪刀沿線將簡單圖形剪下。例如：○、☆</item>
+        <item>會用剪刀將國字剪下，例如：過、腳</item>
+        <item>會將鈕扣縫在衣服上</item>
+        <item>孩子可以畫出簡單的立體幾何圖形，如正立方體、圓柱體、三角錐</item>
+        <item>能用橡皮筋或花繩拉出造型</item>
+        <item>能用剪鉗，將馬賽克磚剪出不同形狀或大小，並拼貼出造型作品</item>
+        <item>能用手將食物外殼剝除</item>
+        <item>能利用不同素材製作出袖珍屋</item>
+        <item>能自己包出壽司</item>
+    </string-array>
+    <string-array name="Fine_Motor_Survey_Answers">
+        <item>完全不會</item>
+        <item>無法同時用十指打字</item>
+        <item>能雙手十指打字，但不順暢</item>
+        <item>能雙手十指協調且順暢的打字</item>
+        <item>完全不會</item>
+        <item>在協助下能切完</item>
+        <item>能獨立切，但肉塊不完整（切成爛肉）</item>
+        <item>能獨立切，且肉塊完整（不會切成爛肉）</item>
+        <item>能在大人的協助下使用輔具完成作品（例如:編織器）</item>
+        <item>能獨立使用輔具完成作品（例如:編織器）</item>
+        <item>能用勾針完整作品，但會漏針</item>
+        <item>能獨立能用勾針完整作品，且不會漏針</item>
+        <item>無法即時抄寫課文</item>
+        <item>可即時抄寫但是常常漏字、跳行、錯字</item>
+        <item>可即時抄寫偶而漏字、跳行、錯字</item>
+        <item>可即時抄寫且不會漏字、跳行、錯字</item>
+        <item>只能能描繪出平面的感覺（圖）</item>
+        <item>能描繪出光的明暗深淺</item>
+        <item>能描繪出光的明暗深淺，陰影處等</item>
+        <item>能描繪出光的明暗深淺、陰影處、物體近遠等細微地方</item>
+        <item>能利用輔具將細線穿過針（例如：穿針器）</item>
+        <item>只能將細線穿入大孔針中（6厘米）</item>
+        <item>只能將細線穿入中孔針中（4厘米）</item>
+        <item>能獨立將細線穿過細孔針（2厘米）</item>
+        <item>無法完全包覆，且是有需多皺褶及破損</item>
+        <item>能部分包覆，但多皺褶及破損</item>
+        <item>能完整包覆，但紙張有些微皺褶或破損</item>
+        <item>能完整包覆，並且紙張表面平整無皺褶及破損</item>
+        <item>能做出簡單作品（單排手鍊）圖</item>
+        <item>將小珠子，排列穿入（雙排手鍊）圖</item>
+        <item>能試著做出4D作品，但無法</item>
+        <item>能做出4D立體作品。例如：手機吊飾</item>
+        <item>不會打蝴蝶結</item>
+        <item>打結步驟會忘記需協助</item>
+        <item>能自己打結但僅能綁鞋帶，或是特定方向才會</item>
+        <item>任意兩條線或是方向都能自己打出蝴蝶結</item>
+        <item>不會使用美工刀</item>
+        <item>會割紙但是以一劃一刀劃分開的方式割下，無法沿著線緣順暢切割出圖形</item>
+        <item>大部分能沿著線緣順暢切割出圖形</item>
+        <item>能完整沿著線緣順暢切割出圖形</item>
+        <item>不會使用美工刀</item>
+        <item>會割紙但是以一劃一刀劃分開的方式割下，無法沿著線緣順暢切割出圖形</item>
+        <item>大部分能沿著線緣順暢切割出圖形</item>
+        <item>能完整沿著線緣順暢切割出圖形</item>
+        <item>會剪紙，但會剪到圖形，且剪下面積超過1/3</item>
+        <item>無法沿著線緣順暢剪出圖形</item>
+        <item>大部分能沿著線緣順暢剪出圖形</item>
+        <item>能完整沿著線緣順暢剪出圖形</item>
+        <item>會剪紙，但會剪到國字，且剪下面積超過1/3</item>
+        <item>無法沿著線緣順暢剪出圖形</item>
+        <item>大部分能沿著線緣順暢剪出圖形</item>
+        <item>能完整沿著線緣順暢剪出圖形</item>
+        <item>不會自己穿針引線、縫鈕扣</item>
+        <item>需要協助才能進行縫鈕扣的步驟</item>
+        <item>能自己完成縫鈕扣不需協助，但是速度不快</item>
+        <item>能自己快速地完成縫鈕扣不需協助</item>
+        <item>無立體感</item>
+        <item>稍微有立體透視感，但仍趨於平面</item>
+        <item>大致上有立體透視感</item>
+        <item>完整立體透視感</item>
+        <item>能運用手指將橡皮經，拉出簡單幾何圖形（三角形、六角形等等）</item>
+        <item>能運用手指將橡皮經，拉出複雜圖形（熱氣球、五芒星等等）</item>
+        <item>能運用手指將花繩，拉出簡單圖形（田地、小山等等）</item>
+        <item>能運用手指將花繩，拉出複雜圖形（艾菲爾鐵塔、橋等等）</item>
+        <item>不會使用剪鉗</item>
+        <item>能將馬賽克磚裁剪兩半</item>
+        <item>能將馬賽克磚裁剪成簡單形狀（三角形、菱形）</item>
+        <item>能依照作品需求裁剪不同大小、形狀</item>
+        <item>能用手較軟外殼食物取出，但無法保持食物完整（會剝蝦但蝦肉會爛爛的）</item>
+        <item>能用手將較軟外殼食物取出，且能維持食物完整度（會剝蝦且蝦肉完整）</item>
+        <item>在協助下能使用開殼工具將外殼較硬食物取出（堅果類、螃蟹）</item>
+        <item>能運用各種工具取出外殼較硬食物（堅果、螃蟹）</item>
+        <item>能用半完成品做出袖珍屋（只需做簡單的黏貼）</item>
+        <item>能用手邊素材黏貼做出平面作品（例如：地板、屋頂）</item>
+        <item>能裁切材料成小型素材，並做出立體作品（小椅子、桌子）</item>
+        <item>能用各種不同材料做出裝飾品（例如：小型食物、花盆）</item>
+        <item>在用輔具使用下能獨立完成（飯糰模型）圖</item>
+        <item>在協助下能用手做出三角飯糰，但會散開</item>
+        <item>在獨立下能用手做出三角飯糰，但會散開</item>
+        <item>在獨立下能用手做出三角飯糰，且不會散開</item>
+    </string-array>
+    <string-array name="Gross_Motor_Survey_Questions">
+        <item>800公尺心肺耐力（分:秒）</item>
+        <item>坐姿體前彎（公分）</item>
+        <item>立定跳遠（公分）</item>
+        <item>仰臥起坐可以做幾下（60秒）</item>
+        <item>跑100公尺需要花（分:秒）</item>
+        <item>能用雙手平板支撐60秒</item>
+        <item>能雙手抱胸，背部靠牆維持坐姿60秒</item>
+        <item>這孩子可以獨自游泳前進 25 公尺以上</item>
+        <item>會連續跳跳繩，中途沒有任何停頓</item>
+        <item>會連續交叉跳跳繩，中途沒有任何停頓</item>
+        <item>會連續踢毽子</item>
+        <item>可以站在罰球線上雙手將球投進籃框，投五次可投進的次數</item>
+        <item>會單手連續拍球向前走（運球）</item>
+        <item>會用左右手交替向前連續運球</item>
+        <item>會連續胯下運球</item>
+        <item>我能夠距離牆壁 1.5 公尺，向牆壁丟球，再雙手接住彈回來的球，連續 30 次</item>
+        <item>會爬上攀爬架，並用吊單槓的方式爬完</item>
+        <item>這孩子會騎兩輪腳踏車</item>
+        <item>雙腳原地不動，連續將乒乓球向上拍</item>
+        <item>直排輪</item>
+    </string-array>
+    <string-array name="Gross_Motor_Survey_Answers">
+        <item>5:21以上（男）／5:31以上（女）</item>
+        <item>5:20–4:42（男）／5:30–5:00（女）</item>
+        <item>4:41–4:09（男）／4:59–4:30（女）</item>
+        <item>少於4:08（男）／少於4:29（女）</item>
+        <item>17以下（男）／23以下（女）</item>
+        <item>18-23（男）／24-28（女）</item>
+        <item>24-28（男）／29-42（女）</item>
+        <item>29（含）以上（男）／43（含）以上（女）</item>
+        <item>127以下（男）／116以下（女）</item>
+        <item>128-141（男）／117-128（女）</item>
+        <item>142-156（男）／129-142（女）</item>
+        <item>157（含）以上（男）／143（含）以上（女）</item>
+        <item>少於20下（男）／少於19下（女）</item>
+        <item>21-25下（男）／20-25下（女）</item>
+        <item>26-31下（男）／26-29下（女）</item>
+        <item>32下（含）以上（男）／30下（含）以上（女）</item>
+        <item>20秒以上</item>
+        <item>19-18秒</item>
+        <item>17-16秒</item>
+        <item>15秒（含）以內</item>
+        <item>0-15秒</item>
+        <item>16-30秒</item>
+        <item>31-45秒</item>
+        <item>46-60秒</item>
+        <item>0-15秒</item>
+        <item>16-30秒</item>
+        <item>31-45秒</item>
+        <item>46-60秒</item>
+        <item>不會游泳</item>
+        <item>使用泳圈、浮板能游泳前進幾步</item>
+        <item>能不依賴輔助游泳前進，但無法游完25公尺</item>
+        <item>能不依賴輔助游泳前進，且游完25公尺</item>
+        <item>0-9下</item>
+        <item>10-19下</item>
+        <item>20-39下</item>
+        <item>40-50下以上</item>
+        <item>0-9下</item>
+        <item>10-19下</item>
+        <item>20-39下</item>
+        <item>40-50下以上</item>
+        <item>0-3下</item>
+        <item>4-10下</item>
+        <item>11-20下</item>
+        <item>21-30下以上</item>
+        <item>只能碰到籃框，無法投進</item>
+        <item>1-2次</item>
+        <item>3-4次</item>
+        <item>5次</item>
+        <item>僅能在原地拍球，且無法連續</item>
+        <item>僅能在原地連續拍球</item>
+        <item>能往前移動並連續運球，但偶爾會掉球</item>
+        <item>能往前移動並連續運球，且不會掉球</item>
+        <item>僅能在原地拍球，且無法連續</item>
+        <item>僅能在原地連續拍球</item>
+        <item>能往前移動並連續運球，但偶爾會掉球</item>
+        <item>能往前移動並連續運球，且不會掉球</item>
+        <item>無法胯下運球或無經驗</item>
+        <item>能跨下運球，但無法連續</item>
+        <item>能跨下運球，但偶而會掉球</item>
+        <item>會連續胯下運球，且不會掉球</item>
+        <item>完全不會</item>
+        <item>1-10 次</item>
+        <item>11-29 次</item>
+        <item>30 次以上</item>
+        <item>在協助下可用吊單槓的方式爬完</item>
+        <item>能自己用吊單槓的方式往前爬幾步</item>
+        <item>能自己用吊單槓的方式往前爬一半</item>
+        <item>能自己用吊單槓的方式爬完</item>
+        <item>需要輔助輪、或是他人在旁扶著腳踏車協助才能前進</item>
+        <item>偶爾能夠自行前進，多數仍須他人協助並且前行不順暢</item>
+        <item>能自己前進，但是有時會出現轉彎不順、或前行時搖晃不穩定</item>
+        <item>能自己順暢地前進、轉彎，完全不需要他人協助</item>
+        <item>只能拍0-4下</item>
+        <item>能連續拍5下以上</item>
+        <item>能連續拍10下以上</item>
+        <item>能連續不間斷拍20下以上（含）</item>
+        <item>需要扶物才可向前移動</item>
+        <item>可短暫不扶物向前移動</item>
+        <item>可獨立往前移動，但無法轉彎</item>
+        <item>可獨立向前移動，並轉彎</item>
+    </string-array>
+    <string name="Consent_Title_ChildVer">長庚醫療財團法人林口長庚紀念醫院\n長庚學校財團法人長庚大學\n電子版　受試者同意書（兒童版）</string>
+    <string name="Consent_ProjectName_ChildVer">計畫名稱：開發學齡兒童智能化身體動作發展評估系統及動作問卷</string>
+    <string name="Consent_Department_ChildVer">執行單位：長庚醫療財團法人\n委託單位：長庚醫療財團法人\n主要主持人：陳嘉玲　醫師\n職稱：學術組教授兼主治醫師\n電話：03-3281200 #8148</string>
+    <string name="Consent_Detail_ChildVer">
+本研究預計收集6 12 歲學齡期兒童，各年齡招收1 00 位典型發展兒童，共6 00 位學齡期兒童進行研究，研究地點為桃園市龜山區大湖國民小學、台北市私立三之三兒童課後服務中心、艾瑪麗文理技藝短期補習班，利用電訪的方式先向各研究單位說明計畫的內容，與實際訪談時間，由主持人或研究助理前往收案地點介紹此計畫，並且發放此同意書給符合條件的典型發展學齡期兒童。家長同意後便簽署此同意書後與校方安排實際收案時間。同時，為解決傳統評估侷限在醫院及評估內部一致性等問題，本研究特別設計一款專用的應用程式，使受試者能夠方便地進行同意書的數位簽 署，以及進行相關的動作測驗。這個應用程式不僅提供了方便的界面。
+收集內容包括個案基本資料及智能化動作評估系統測驗分數及兒童身體動作問卷分數；智能化動作評估系統題目為參考目前現有的臨床動作評估工具，其中包括：布魯茵克斯─ 歐西瑞斯基動作精練度測驗第二版 Bruininks Oseretsky Test of Motor Proficiency, BOT 2 Bruininks, 2005 、拜瑞─布坦尼卡視覺─動作統整發展測驗第六 Beery Buktenica Developmental Test of Visual Motor
+Integration , Sixth Edition, The BEERY ™ VMI Beery, 2004 等等動作評估工具；學齡前動作問卷題目則參考臺灣幼兒發展調查資料庫(Kids in Taiwan: National Longitudinal Study of Child Development  Care ，簡稱KIT) 6-8歲兒童身體動作問卷與國內外相關動作評估工具與兒童發展里程碑…等等。
+收案過程加上問卷耗時時間約需 60 分鐘，收案期間會根據個案配合度與能力有所不同。在本計畫的進行期間中，若有任何可能影響您或您的孩子決定是否參與研究的因素，我們必定會讓您或您孩子了解，並且再次決定是否願意進行本試驗。另外，若在受試期間中，您或您的孩子有任何的不適情形或相關可能副作用，請以本同意書中所詳列的聯絡方式，隨時與您或您孩子的主治醫師聯絡討論，主治醫師必會盡力為您或您的孩子處理。
+部分臨床評估需拍攝影片做為評分依據，拍攝完之影片將會上鎖管制。
+    </string>
+</resources>

@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">兒童精細動作評估系統</string>
+    <string-array name="Sex">
+        <item>未設定</item>
+        <item>男性</item>
+        <item>女性</item>
+    </string-array>
+    <string-array name="Grade">
+        <item>未設定</item>
+        <item>幼幼班</item>
+        <item>小班</item>
+        <item>中班</item>
+        <item>大班</item>
+        <item>一年級</item>
+        <item>二年級</item>
+        <item>三年級</item>
+        <item>四年級</item>
+        <item>五年級</item>
+        <item>六年級</item>
+        <item>七年級</item>
+        <item>八年級</item>
+        <item>九年級</item>
+        <item>十年級</item>
+        <item>十一年級</item>
+        <item>十二年級</item>
+    </string-array>
+    <string-array name="Handedness">
+        <item>未設定</item>
+        <item>右手</item>
+        <item>左手</item>
+    </string-array>
+    <string-array name="Footedness">
+        <item>未設定</item>
+        <item>右腳</item>
+        <item>左腳</item>
+    </string-array>
+    <string-array name="Gross_Motor">
+        <item>仰臥起坐</item>
+        <item>伏地挺身</item>
+        <item>同側手腳舉起</item>
+        <item>不同側手腳舉起</item>
+        <item>同側手腳跳躍</item>
+        <item>不同側手腳跳躍</item>
+        <item>雙手同時碰_頭_耳_肩_膝</item>
+        <item>踮腳尖單腳站</item>
+        <item>右腳_雙腳_左腳_雙腳原地跳</item>
+        <item>雙腳打拍子</item>
+        <item>手指依序比0~5</item>
+        <item>單手前三指轉筆</item>
+    </string-array>
+    <string-array name="Language">
+        <item>中文</item>
+        <item>英文</item>
+        <item>日文</item>
+    </string-array>
+</resources>
